@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  background: linear-gradient(135deg, #1e1e2f, #121212);
+  color: white;
+}
+
+/* Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 50px;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(10px);
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Home */
+#home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 20px;
+}
+
+.image img {
+  width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 30px cyan;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: cyan;
+  color: black;
+  text-decoration: none;
+  border-radius: 20px;
+}
+
+/* Projects */
+.project-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.card {
+  padding: 20px;
+  background: rgba(255,255,255,0.1);
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+/* Dark mode */
+.light-mode {
+  background: white;
+  color: black;
+}
