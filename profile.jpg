@@ -1,0 +1,7 @@
+<section id="profile">
+  <div class="profile-container">
+    <img src="profile.jpg" alt="My Profile Photo" class="content://media/external/downloads/41515">
+    <h1>Gudipati Sai Kumar</h1>
+    <p>Web Developer</p>
+  </div>
+</section>
